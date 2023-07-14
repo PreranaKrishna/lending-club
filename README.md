@@ -1,6 +1,20 @@
 # Project Name
-> Outline a brief description of your project.
 
+A finance service company called the Lending Club offers customers to lend various types of loans. Some of the types of loans are business loans, personal loans, educational loans, home loans etc.
+When an applicant applies for a loan, the company has to take a decision for a loan approval based on the applicant’s information.
+When a person applies for a loan, there are two types of decisions that could be taken by the company:
+
+Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
+Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
+
+Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
+
+Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan 
+Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
+
+The dataset consists of data dictionary and loans details issued from 2007 to 2011 by the Lending Club. 
+
+Since the company wants to understand the driving factor behind a defaults, only those variables will be considered for the analysis. These variables will be helpful in helping the investor to take a decision on whether or not to invest in the loan request. Customer behaviour information provided in the dataset will not be considered
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,15 +22,18 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 - Provide general information about your project here.
+    The goal of this analysis is to identify whether a applicants/borrower will be able to fully pay the loan with the interest amount. The dataset provided by the Lending Club must help us to analyse the pattern of a Charged Off and Fully Paid customer. This can be used for taking actions such as denying the loan, reducing the amount of loan or lending at a higher interest rate.
 - What is the background of your project?
+    LendingClub is a financial services company headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission, and to offer loan trading on a secondary market
 - What is the business probem that your project is trying to solve?
+    The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
+    Lending loans to ‘risky’ applicants can cause credit loss. In such a situation, the customers labelled as 'charged-off' are the 'defaulters'.
 - What is the dataset that is being used?
+    The data given loan and data dictionary contains the information about past loan applicants and whether they ‘defaulted’ or not.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 - Conclusion 1 from the analysis
@@ -28,11 +45,13 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.8
+- Panda - version 2.0
+- Matplotlib - version 3.0
+- Seaborn - version 3.0
+- Plotly - version 3.0
+- IDE - Jupyter Notebook
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
@@ -43,10 +62,3 @@ Give credit here.
 
 ## Contact
 Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
