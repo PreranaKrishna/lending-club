@@ -36,21 +36,22 @@ Since the company wants to understand the driving factor behind a defaults, only
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+1. Lending club should reduce the higher interest rate loans with higher tenure (60 months) , these loans are more prone to default.
+2. Small Business loans are more defaulted, So these loan should be reduced.
+3. Grade are good metric for detecting defaulters. Loan applicants categorised under lower grades like G, F and E should be examined more stringently.
+4. Borrowers with mortgage home ownership are taking higher loan, and defaulted, these loan should be reduced.
+5. If Ratio of loan amount and funded amount is lesser than 90%, we see most of borrower tend to defaulted. Its risky for lending club to approve loan for these borrowers
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
 - Python - version 3.8
-- Panda - version 2.0
-- Matplotlib - version 3.0
+- Panda - version 2.0.3
+- Matplotlib - version 3.4
 - Seaborn - version 3.0
 - Plotly - version 3.0
-- IDE - Jupyter Notebook
+- IDE - Jupyter Notebook - version 6.5.2
 
 
 ## Acknowledgements
